@@ -2,4 +2,4 @@
 
 This should drive a lot of attendance
 
-# Cool
+This is my attempt and making this better
