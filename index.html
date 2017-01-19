@@ -4,17 +4,16 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Ursuline Academy Virtual Tour</title>
-        <script src="index.js"></script>
         <link href="index.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
 		<div id="wrapper">
     		<header>
-    			<img id="logo" src="images/branding_shadow.png"/>
+    			<img id="logo" src="images\branding_shadow.png"/>
     		</header>
     		<div id="main">
                 <div id="pageImg">
-    				<img src="images/FrontCampus.jpg">
+    				<img src="images\FrontCampus.jpg">
     			</div>
                 <div id="tourNav">
     				<ul id="campusNav">
@@ -37,7 +36,7 @@
     			</div>
     			<div id="mod360">
                     <!-- Trigger the Modal -->
-                    <img id="myImg" src="images/Merici.jpg" alt="" width="300" height="200">
+                    <img id="myImg" src="images/pano2.png" alt="" width="300" height="200">
 
                     <!-- The Modal -->
                     <div id="myModal" class="modal">
@@ -46,7 +45,7 @@
                       <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
 
                       <!-- Modal Content (The Image) -->
-                      <img class="modal-content" id="img01">
+                      <div class="modal-content" id="img01">
 
                       <!-- Modal Caption (Image Text) -->
                       <div id="caption"></div>
@@ -54,7 +53,7 @@
     			</div>
     			<div id="modVid">
                     <!-- Trigger the Modal -->
-                    <img id="myVid" src="images/frontVid.png" alt="" width="300" height="200">
+                    <img id="myVid" src="images\frontVid.png" alt="" width="300" height="200">
 
                     <!-- The Modal -->
                     <div id="myModalVid" class="modal">
@@ -63,7 +62,7 @@
                       <span class="close" onclick="document.getElementById('myModalVid').style.display='none'">&times;</span>
 
                       <!-- Modal Content (The Image) -->
-                      <img class="modal-content" id="vid01">
+                      <div class="modal-content" id="vid01">
 
                       <!-- Modal Caption (Image Text) -->
                       <div id="vidcaption"></div>
@@ -72,4 +71,5 @@
     		</div>
 		</div>
     </body>
+    <script src="index.js"></script>
 </html>
