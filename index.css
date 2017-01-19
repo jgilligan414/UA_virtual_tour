@@ -1,45 +1,51 @@
 body{
 	background-color: #cf1e31;
-	width: 1024px;
+	width: 100%;
 }
 
-#wrapper {
-  max-width: 150px;
-  margin: 0 auto;
-}
 
 header{
-	height: 155px;
-	width: 1024px;
+	width: 100%;
 	background-color: #d3d3d3;
-	margin: auto;
+	margin: 0, auto;
 	display: block;
 }
 
+
 #logo{
-	margin: 20px 4px;
+	margin: 2% 2%;
+	max-width: 20%;
 }
+
 
 #main{
 	margin: auto;
 	display: block;
 }
 
-#campusNav{
-  list-style-type: none;
-  display: block;
-  position: absolute;
-  width: 20%;
-  height: 73%;
-   margin-top: 0px;
-  background: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,0.8));  
-  padding-top: 45px;
-  border-radius: 7px;
+#pageImg img{
+	width: 100%;
+	position: absolute;
 }
+
+#campusNav{
+list-style-type: none;
+display: block;
+position: absolute;
+width: 20%;
+Margin-top:0px;
+background-color: black;
+padding-top: 45px;
+border-radius: 7px;
+background: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,0.9));
+}
+
+
 
 li{
 	padding-bottom: 30px;
 }
+
 
 li a{
 	text-decoration: none;
@@ -51,17 +57,16 @@ li a{
 #mod360{
 	display: block;
 	position: absolute;
-	margin-top: -110px;
-	margin-left: 250px;
+	margin-left: 25%;
+	margin-top: 50%;
 }
+
 
 /* Style the Image Used to Trigger the Modal */
 #myImg {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
-    height: 100px;
-    width: 130px;
 }
 
 #myImg:hover {opacity: 0.7;}
@@ -102,7 +107,7 @@ li a{
 }
 
 /* Add Animation - Zoom in the Modal */
-.modal-content, #caption { 
+.modal-content, #caption {
     -webkit-animation-name: zoom;
     -webkit-animation-duration: 0.6s;
     animation-name: zoom;
@@ -110,12 +115,12 @@ li a{
 }
 
 @-webkit-keyframes zoom {
-    from {-webkit-transform:scale(0)} 
+    from {-webkit-transform:scale(0)}
     to {-webkit-transform:scale(1)}
 }
 
 @keyframes zoom {
-    from {transform:scale(0)} 
+    from {transform:scale(0)}
     to {transform:scale(1)}
 }
 
@@ -142,4 +147,40 @@ li a{
     .modal-content {
         width: 100%;
     }
+}
+#modVid{
+	display: block;
+	position: absolute;
+	margin-left: 50%;
+	margin-top: 50%;
+}
+
+
+/* Style the Image Used to Trigger the Modal */
+#myVid {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myVid:hover {opacity: 0.7;}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#vidcaption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #vidcaption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
 }
