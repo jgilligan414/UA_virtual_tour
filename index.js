@@ -10,7 +10,7 @@ img.onclick = function(){
     modal.style.display = "block";
     //modalImg.src = this.src;
     //captionText.innerHTML = this.alt;
-    modal.innerHTML = '<iframe width="1008" height="300px" allowfullscreen frameborder="0" src="vrview/index.html17_jsummers?image=images/pano2.png"></iframe>'
+    modal.innerHTML = '<iframe width="1008" height="300px" allowfullscreen frameborder="0" src="vrview/index.html?image=images/pano2.png"></iframe>'
 }
 
 // Get the <span> element that closes the modal
