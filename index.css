@@ -55,12 +55,17 @@ li a{
 }
 
 #mod360{
-	display: block;
-	position: absolute;
+	display: block;;
+	position: absolute;;
 	margin-left: 25%;
 	margin-top: 50%;
 }
-
+#modVid{
+	display: block;
+	position: absolute;
+	margin-left: 50%;
+	margin-top: 50%;
+}
 
 /* Style the Image Used to Trigger the Modal */
 #myImg {
@@ -148,14 +153,6 @@ li a{
         width: 100%;
     }
 }
-#modVid{
-	display: block;
-	position: absolute;
-	margin-left: 50%;
-	margin-top: 50%;
-}
-
-
 /* Style the Image Used to Trigger the Modal */
 #myVid {
     border-radius: 5px;
