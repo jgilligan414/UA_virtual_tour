@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Ursuline Academy Virtual Tour</title>
+        <link href="index.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+		<div id="wrapper">
+    		<header>
+    			<img id="logo" src="images\branding_shadow.png"/>
+    		</header>
+    		<div id="main">
+          <div id="pageImg">
+    				<img src="images/Merici.JPG"/>
+    			</div>
+                <div id="tourNav">
+    				<ul id="campusNav">
+    					<li>
+    						<a href="index.html">Front Campus</a>
+    					</li>
+    					<li>
+    						<a href="merici.html">Merici Hall</a>
+    					</li>
+    					<li>
+    						<a href="brescia.html">Brescia Hall</a>
+    					</li>
+    					<li>
+    						<a href="hartnett.html">Hartnett Hall</a>
+    					</li>
+    					<li>
+    						<a href="ohara.html">O'Hara Hall</a>
+    					</li>
+    				</ul>
+    			</div>
+    			<div id="mod360">
+                    <!-- Trigger the Modal -->
+                    <img id="myImg" src="images/pano2ss.png" alt="" width="300" height="200">
+
+                    <!-- The Modal -->
+                    <div id="myModal" class="modal">
+
+                      <!-- The Close Button -->
+                      <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+
+                      <!-- Modal Content (The Image) -->
+                      <div class="modal-content" id="img01">
+
+                      <!-- Modal Caption (Image Text) -->
+                      <div id="caption"></div>
+                    </div>
+    			</div>
+    			<div id="modVid">
+                    <!-- Trigger the Modal -->
+                    <img id="myVid" src="images/mericivideoss.png" alt="" width="300" height="200">
+
+                    <!-- The Modal -->
+                    <div id="myModalVid" class="modal">
+
+                      <!-- The Close Button -->
+                      <span class="close" onclick="document.getElementById('myModalVid').style.display='none'">&times;</span>
+
+                      <!-- Modal Content (The Image) -->
+                      <div class="modal-content" id="vid01">
+
+                      <!-- Modal Caption (Image Text) -->
+                      <div id="vidcaption"></div>
+                    </div>
+    			</div>
+    		</div>
+		</div>
+    <div id="vidContainer">
+           <div id="tourVid" guidetype="mp4">
+             <video src="images/Merici.mp4" type="video/mp4" autoplay></video>
+         </div>
+       </div>
+    </body>
+    <script src="merici.js"></script>
+</html>

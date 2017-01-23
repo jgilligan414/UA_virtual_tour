@@ -55,16 +55,14 @@ li a{
 }
 
 #mod360{
-	display: block;;
-	position: absolute;;
-	margin-left: 25%;
-	margin-top: 50%;
+	position: relative;
+	float:left;
+	margin-top: 300px;
 }
-#modVid{
-	display: block;
-	position: absolute;
-	margin-left: 50%;
-	margin-top: 50%;
+#modvid{
+	position: relative;
+	float:left;
+	margin-top: 300px;
 }
 
 /* Style the Image Used to Trigger the Modal */
@@ -180,4 +178,19 @@ li a{
     -webkit-animation-duration: 0.6s;
     animation-name: zoom;
     animation-duration: 0.6s;
+}
+
+video {
+	position: relative;
+	float: right;
+	height: 307px;
+}
+
+#vidContainer {
+	width:300px;
+	overflow:hidden;
+	display:block;
+	position:relative;
+	margin-left:75%;
+	height:800px;
 }
