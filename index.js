@@ -50,7 +50,3 @@ function pauseVid() {
         vid.pause();
     }
 }
-
-function playVid() {
-    vid.play();
-}
