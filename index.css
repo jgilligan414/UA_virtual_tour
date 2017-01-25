@@ -183,14 +183,16 @@ li a{
 video {
 	position: relative;
 	float: right;
-	height: 307px;
+	height: 42em;
+	padding-top: 153%;
 }
 
 #vidContainer {
-	width:300px;
+	width:100px;
 	overflow:hidden;
 	display:block;
 	position:relative;
-	margin-left:75%;
+	margin-left:62%;
 	height:800px;
+	padding-left: 30%;
 }
