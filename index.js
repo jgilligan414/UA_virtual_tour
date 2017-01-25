@@ -43,8 +43,14 @@ var span = document.getElementsByClassName("close")[0];
 //}
 var vid = document.getElementById("lexi");
 function pauseVid() {
-    vid.pause();
+    if (vid.paused){
+        vid.play();
+    }
+    else {
+        vid.pause();
+    }
 }
+
 function playVid() {
     vid.play();
 }
