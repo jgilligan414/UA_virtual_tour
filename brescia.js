@@ -41,3 +41,10 @@ var span = document.getElementsByClassName("close")[0];
 //span.onclick = function() {
   //vidmodal.style.display = "none";
 //}
+var vid = document.getElementById("lexi");
+function pauseVid() {
+    vid.pause();
+}
+function playVid() {
+    vid.play();
+}
