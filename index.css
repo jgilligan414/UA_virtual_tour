@@ -181,18 +181,11 @@ li a{
 }
 
 video {
-	position: relative;
-	float: right;
-	height: 42em;
-	padding-top: 153%;
+	width: 100%;
 }
 
 #vidContainer {
-	width:100px;
-	overflow:hidden;
-	display:block;
-	position:relative;
-	margin-left:62%;
-	height:800px;
-	padding-left: 30%;
+	width: 80%;
+	position: absolute;
+    margin-left: 20%;
 }

@@ -36,7 +36,7 @@
     			</div>
     			<div id="mod360">
                     <!-- Trigger the Modal -->
-                    <img id="myImg" src="images/pano6ss.png" alt="" width="300" height="200">
+                    <img id="myImg" src="images/pano8ss.png" alt="" width="300" height="200">
 
                     <!-- The Modal -->
                     <div id="myModal" class="modal">
@@ -72,7 +72,8 @@
 		</div>
     <div id="vidContainer">
            <div id="tourVid" guidetype="mp4">
-             <video id="lexi" src="images/Brescia2.mp4" type="video/mp4" autoplay onclick="pauseVid()"></video>
+             <video id="lexi" src="images/Brescia2.mp4" type="video/mp4" autoplay onclick="pauseVid()" onended="videoEnded()"></video>
+             <span class="close" onclick="document.getElementById('vidContainer').style.display='none'" onended="tourEnded()">&times;</span>
          </div>
        </div>
     </body>

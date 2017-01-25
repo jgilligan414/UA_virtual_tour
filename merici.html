@@ -72,7 +72,8 @@
 		</div>
     <div id="vidContainer">
            <div id="tourVid" guidetype="mp4">
-             <video id="lexi" src="images/Merici.mp4" type="video/mp4" autoplay onclick="pauseVid()"></video>
+             <video id="lexi" src="images/Merici.mp4" type="video/mp4" autoplay onclick="pauseVid()" onended="videoEnded()"></video>
+             <span class="close" onclick="document.getElementById('vidContainer').style.display='none'" onended="tourEnded()">&times;</span>
          </div>
        </div>
     </body>

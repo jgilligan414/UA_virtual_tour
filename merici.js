@@ -50,3 +50,10 @@ function pauseVid() {
         vid.pause();
     }
 }
+
+function videoEnded(){
+    vid.style.display = "none";
+}
+function tourEnded(){
+    span.style.display = "none";
+}
