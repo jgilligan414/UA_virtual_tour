@@ -191,7 +191,9 @@ video {
 }
 
 #vidContainer {
-	width: 80%;
+	width: 75%;
 	position: absolute;
-    margin-left: 20%;
+    margin-left: 25%;
+	height: 150%;
+	background-color: black;
 }

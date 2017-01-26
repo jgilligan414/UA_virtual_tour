@@ -51,9 +51,14 @@ function pauseVid() {
     }
 }
 
+var x = document.getElementById("lexiclose");
+var vidContainer = document.getElementById("vidContainer");
+
 function videoEnded(){
-    vid.style.display = "none";
+    vidContainer.style.display = "none";
 }
-function tourEnded(){
-    span.style.display = "none";
+
+function stopVideo(){
+    vid.pause();
+    vid.currentTime = 0;
 }

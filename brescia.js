@@ -52,8 +52,5 @@ function pauseVid() {
 }
 
 function videoEnded(){
-    vid.style.display = "none";
-}
-function tourEnded(){
-    span.style.display = "none";
+    vidContainer.style.display = "none";
 }
