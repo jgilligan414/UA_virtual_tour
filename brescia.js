@@ -31,7 +31,7 @@ vid.onclick = function(){
    vidmodal.style.display = "block";
   //  modalVid.src = this.src;
   //vidcaptionText.innerHTML = this.alt;
-  modalVid.innerHTML= '<iframe width="560" height="315" src="https://www.youtube.com/embed/f6x1jJpOYWA" frameborder="0" allowfullscreen></iframe>';
+  modalVid.innerHTML= '<iframe width="560" height="315" src="https://www.youtube.com/embed/hvcANZWW-ME" frameborder="0" allowfullscreen></iframe>';
 }
 
 // Get the <span> element that closes the modal
