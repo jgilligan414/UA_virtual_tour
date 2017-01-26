@@ -187,13 +187,17 @@ li a{
 }
 
 video {
-	width: 100%;
+	position:relative;
+	float:right;
+	height:21em;
 }
 
 #vidContainer {
-	width: 75%;
-	position: absolute;
-    margin-left: 25%;
-	height: 150%;
+	width: 30%;
+	overflow:hidden;
+	display:block;
+	float:right;
+	border: 4px solid white;
+	position: relative;
 	background-color: black;
 }
