@@ -188,12 +188,11 @@ li a{
 
 video {
 	position:relative;
-	float:right;
-	height:21em;
+	width: 100%;
 }
 
 #vidContainer {
-	width: 30%;
+	width: 75%;
 	overflow:hidden;
 	display:block;
 	float:right;
